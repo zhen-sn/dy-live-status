@@ -1,0 +1,41 @@
+# Laravel
+/bootstrap/*
+!/bootstrap/cache
+!/bootstrap/providers.php
+/config/*
+!/config/app.php
+!/config/auth.php
+!/config/cache.php
+!/config/database.php
+!/config/logging.php
+!/config/queue.php
+!/config/session.php
+!/config/broadcasting.php
+/database/*
+!/database/migrations
+!/database/seeders
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Custom
+database/database.sqlite
